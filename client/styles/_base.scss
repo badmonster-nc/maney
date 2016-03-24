@@ -1,0 +1,43 @@
+@import "layout/variables";
+@import "layout/layout";
+@import "layout/mixins";
+@import "layout/structure";
+@import "default-theme";
+html,
+body {
+  color: $neutral-5;
+  background-color: $neutral-2;
+}
+.content-wrap {
+  padding: 1rem;
+}
+.scroll-y {
+  overflow-y: scroll;
+}
+.scroll-x {
+  overflow-x: scroll;
+}
+.text-success {
+  color: $success;
+}
+.text-error {
+  color: $error;
+}
+.text-warning {
+  color: $warning;
+}
+.whiteframe-z1 {
+  box-shadow: $whiteframe-shadow-z1;
+}
+.whiteframe-z2 {
+  box-shadow: $whiteframe-shadow-z2;
+}
+.whiteframe-z3 {
+  box-shadow: $whiteframe-shadow-z3;
+}
+.whiteframe-z4 {
+  box-shadow: $whiteframe-shadow-z4;
+}
+.whiteframe-z5 {
+  box-shadow: $whiteframe-shadow-z5;
+}

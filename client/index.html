@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MaYney</title>
+
+</head>
+
+<body layout="column" flex ng-controller="AppController as appCtrl">
+
+
+<header class="top-nav">
+    <h2>Manage Your Money</h2>
+</header>
+<div layout="row" flex>
+    <div class="left-menu" flex="15" layout-sm="column">
+        left menu
+    </div>
+    <div class="main-content" flex layout="column" layout-align="center center">
+        contenu principal
+
+    </div>
+</div>
+
+
+<div class="preloader-wrap">
+    <span class="preloader"></span>
+    <span class="screen"></span>
+</div>
+
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+
+<script>
+    System.import('./src/bootstrap').catch(function (ex) {
+        console.error('Internal Error ', ex && ex.stack || ex)
+    });
+</script>
+
+
+
+</body>
+
+</html>

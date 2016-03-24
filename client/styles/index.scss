@@ -1,0 +1,39 @@
+//@import "base"; remove Base import if you are using Angular Material
+@import "../jspm_packages/github/angular/bower-material@1.0.5/angular-material.scss";
+@import "../src/card/_card";
+
+ 
+
+.top-nav{
+  background: #1f85ff;
+  box-shadow: $whiteframe-shadow-1dp;
+  z-index: $z-index-menu;
+
+
+  h2{
+    padding: 1rem;
+    margin: 0;
+  }
+}
+
+
+.name-wrap{
+  position: relative;
+
+  h2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -4rem;
+  }
+}
+
+
+
+.main-content{
+  background: #ddd;
+}
+
+.left-menu{
+  background: #c7fcff;
+}
