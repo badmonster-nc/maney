@@ -1,7 +1,0 @@
-{
-  "comment": "ce fichier sera écrasé par puppet, toute modification sera donc perdue",
-  "endpoints": {
-    "test": "https://test.dev.appli-gestion.nc/api"
-  },
-  "name": "test"
-}
