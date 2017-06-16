@@ -1,17 +1,3 @@
-client/.sass-cache/
-tmp
-checkstyle.xml
-test-results.xml
-protractor-results.xml
-dist
-scsslint-checkstyle.xml
 node_modules
-jspm_packages
-.idea/
-client/styles/*.css
-client/styles/*.map
 npm-debug.log
-cobertura.xml
-coverage
-coverage-report-html
 
